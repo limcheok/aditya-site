@@ -1,0 +1,30 @@
+.navigation-menu ul{
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 500px;
+	overflow: hidden;
+	background-color: black;	
+}
+.navigation-menu li{
+	float: left;
+	font-size: 30px
+}
+.navigation-menu a{
+	display: inline-block;
+	padding-left: 50px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 50px;
+	color: purple;
+	margin-right: 50px;
+	box-sizing: 100px;
+}
+#nav1{
+	background-color: red;
+}
+#nav2{
+	background-color: green;
+}
+#nav3{
+	background-color: yellow;
+}

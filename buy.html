@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SuperCarsForSale.com/Buy/ </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="buy.css">
+
+	<link rel="stylesheet" href="nav.css">
+</head>
+<body background="img/BackgroundImage2.png">
+	<h2><u>Here you may buy the supercars of your dreams!!!</u></h2>
+	<br>
+	<p><b> These are all the fastest in the world right now!!! you may chose any number of them and buy them right away! </b></p>
+	<br>
+	<h3 id="Sale"><marquee> There is a FIRE Sale at the moment so purchase ahead!!! </marquee></h3>
+	<br>
+	<center>
+		<div class="navigation-menu">
+			<ul>
+				<li> <a id="nav1" href="index.html"> Home </a></li>
+				<li> <a id="nav2" href="buy.html"> Fastest Supercars </a></li>
+				<li> <a id="nav3" href="buy2.html"> Trending Supercars </a></li>
+			</ul>
+		</div>
+	</center>
+	<hr>
+	<div class="fastest">
+		<h3><i> These here are the fastest cars in the world!!! </i></h3>
+		<br>
+		<div class="card-deck">
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/bugatti(chiron_super_sport).jpg" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">Bugatti Chiron Super Sport(SGD <del>$3,000,000</del><sup>$2,500,000)</sup></h4>
+					<p class="card-text">Fastest speed: 304 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bugattichi">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/hennessey_venm_f5.jpg" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">Hennessey Venom F5(SGD <del>$1,800,000</del><sup>$1,500,000)</sup></h4>
+					<p class="card-text">Fastest speed: 301 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#henf5">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/ssc_tuatara.jfif" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">SSC Tuatara(SGD <del>$2,000,000</del><sup>$1,300,000)</sup></h4>
+					<p class="card-text">Fastest speed: 300 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ssc">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="card-deck">
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/koenigsegg.jpg" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">Koenigsegg Agera RS(SGD <del>$2,100,000</del><sup>$2,000,000)</sup></h4>
+					<p class="card-text">Fastest speed: 278 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#koenigsegg">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/hennessey_venom_gt.jfif" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">Hennessey Venom GT(SGD <del>$1,350,000</del><sup>$1,100,000)</sup></h4>
+					<p class="card-text">Fastest speed: 270 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hengt">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+			<div class="card bg-warning">
+				<img class="card-img-top" src="img/bugatti(veyron).jpg" height="300px">
+				<div class="card-body">
+					<h4 class="card-title">Bugatti Veyron Super Sport(SGD <del>$2,000,000</del><sup>$1,800,000)</sup></h4>
+					<p class="card-text">Fastest speed: 268 mph</p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bugattivey">
+						Click here to buy!
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="bugattichi">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Bugatti Chiron Super Sport(SGD $2,500,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					The CHIRON is the fastest, most powerful, and exclusive production super sports car in BUGATTI’s history. Its sophisticated design, innovative technology, and iconic, performance-oriented form make it a unique masterpiece of art, form and technique, that pushes boundaries beyond imagination.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bugattichi2" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="bugattichi2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Bugatti Chiron Super Sport</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="henf5">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Hennessey Venom F5(SGD $1,500,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Sealy. Texas– After an extensive engineering and development phase, the Hennessey team has done it again. The company’s all new Venom F5 engine produces an astounding 1817 horsepower and 1193 lb-ft of torque. Based on the classic American V8 / LS architecture, the Hennessey V8 engine uses a combination of high-tech, light weight engine components (crankshaft, pistons, connecting rods & custom engine block) that combine for 6.6L of displacement. Combined with a pair of Precision ball bearing twin turbochargers with 3D printed titanium compressor housings, the Venom F5 engine delivers over 1800 bhp at 8000 rpm!
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#henf52" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="henf52">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Hennessey Venom F5</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="ssc">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> SSC Tuatara(SGD $1,300,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					The Tuatara is a hypercar unlike any other. It is the culmination of over a decade of research and development to produce a road legal, high performance vehicle capable of delivering an otherworldly driving experience. Influenced by fighter jet aerodynamics and performance, the presence of the Tuatara inspires a sense of both intensity and simplistic design. Its striking profile is futuristic in its function, yet timeless in its form.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ssc2" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="ssc2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>SSC Tuatara</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="koenigsegg">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Koenigsegg Agera RS(SGD $2,000,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					The new Koenigsegg Agera RS has its focus set firmly on the track but is still perfect for regular use on the road. It uses advanced technology developed during our exclusive Koenigsegg One:1 program, while maintaining all the functionality of previous S and R models. Such practicalities include a usable luggage compartment and a detachable hardtop that can be stowed internally for top-down motoring at any time.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#koenigsegg2" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="koenigsegg2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Koenigsegg Agera RS </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="hengt">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Hennessey Venom GT(SGD $1,100,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					The Hennessey Performance team was able to utilize the Shuttle Landing runway via the Performance Power LLC Space Act Agreement. Performance Power collaborates with manufacturers and race teams alike to utilize the shuttle runway for the purposes of engineering validation, safety, innovative product design, and aerodynamic testing. The Hennessey team, its engineers and test driver worked closely with Johnny Bohmer and the Performance Power Team who made this test possible. A representative from VBox USA, world-renowned maker of engineering data-acquisition systems, was on hand to independently verify and document the vehicle’s aerodynamic performance.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hengt2" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="hengt2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Hennessey Venom GT </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="bugattivey">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Bugatti Veyron Super Sport(SGD $1,800,000) </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by French automobile manufacturer Bugatti. It was named after the racing driver Pierre Veyron.<br>
+
+					1,200 hp, a maximum torque of 1,500 Nm, acceleration from 0 to 100 km/h in 2.5 seconds and a top speed of 415 km/h – 2010 the Veyron 16.4 Super Sport made experts and car fans all around the world marvel at this performance data and shone bright as the new star in the super sports car sky.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bugattivey2" data-dismiss="modal">
+						Purchase
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="bugattivey2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4> Bugatti Veyron Super Sport </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					Are you sure you want to buy this?
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Cancel
+					</button>
+					<a href="confirm_purchase.html">
+						<button type="button" class="btn btn-primary">
+							Confirm
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

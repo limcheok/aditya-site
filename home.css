@@ -1,0 +1,17 @@
+h2{
+	color: orangered;
+	border-color: skyblue;
+	font-family: Arial;
+	text-align: center;
+}
+p{
+	color: green;
+	font-size: 20px
+}
+hr{
+	border: 10px solid green;
+  	border-radius: 5px;
+}
+#leftbutton{
+	color: red;
+}

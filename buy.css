@@ -1,0 +1,24 @@
+h2{
+	color: orangered;
+	border-color: skyblue;
+	font-family: Arial;
+	text-align: center;
+}
+h3{
+	color: red;
+	font-family: Helvetica;
+}
+p{
+	font-size: 25;
+	font-family: sans-serif;
+	text-align: left;
+	color: green;
+}
+h2 :hover{
+	color: blue;
+	background-color: green;
+}
+hr{
+	border: 10px solid blue;
+  	border-radius: 5px;
+}
